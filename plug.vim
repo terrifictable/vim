@@ -24,8 +24,8 @@ Plug 'fatih/vim-go' " GoLang support
 
 " === UI ===
 Plug 'preservim/nerdtree'                " File Explorer
-Plug 'mengelbrecht/lightline-bufferline' " Bufferline
 Plug 'itchyny/lightline.vim'             " Status bar
+Plug 'mengelbrecht/lightline-bufferline' " Bufferline
 Plug 'yggdroot/indentline'               " Indicate indents
 
 " === LSP ===
@@ -33,6 +33,7 @@ Plug 'prabirshrestha/vim-lsp'              " Lsp
 Plug 'mattn/vim-lsp-settings'              " More Lsp
 Plug 'prabirshrestha/asyncomplete.vim'     " Autocomplete
 Plug 'prabirshrestha/asyncomplete-lsp.vim' " AutoComplete with LSP
+Plug 'dense-analysis/ale'                  " ALE
 
 " === OTHER ===
 Plug 'hrsh7th/vim-vsnip'       " Snippets
