@@ -8,12 +8,36 @@ endif
 
 call plug#begin()
 
-Plug 'ghifarit53/tokyonight-vim'         " Theme
-Plug 'tpope/vim-surround'                " Surround stuff
-Plug 'tpope/vim-dispatch'                " Async Make
-Plug 'tpope/vim-fugitive'                " Git
+
+" === THEMES ===
+Plug 'ghifarit53/tokyonight-vim' " Theme
+
+" === WORKFLOW ===
+Plug 'tpope/vim-commentary' " Comment stuff
+Plug 'tpope/vim-surround'   " Surround stuff
+Plug 'tpope/vim-dispatch'   " Async Make
+Plug 'tpope/vim-fugitive'   " Git
+Plug 'junegunn/fzf'         " Fuzzy finder
+
+" === LANGUAGES ===
+Plug 'fatih/vim-go' " GoLang support
+
+" === UI ===
+Plug 'preservim/nerdtree'                " File Explorer
 Plug 'mengelbrecht/lightline-bufferline' " Bufferline
-Plug 'itchyny/lightline.vim'             " Buttom Line(?)
+Plug 'itchyny/lightline.vim'             " Status bar
+Plug 'yggdroot/indentline'               " Indicate indents
+
+" === LSP ===
+Plug 'prabirshrestha/vim-lsp'              " Lsp
+Plug 'mattn/vim-lsp-settings'              " More Lsp
+Plug 'prabirshrestha/asyncomplete.vim'     " Autocomplete
+Plug 'prabirshrestha/asyncomplete-lsp.vim' " AutoComplete with LSP
+
+" === OTHER ===
+Plug 'hrsh7th/vim-vsnip'       " Snippets
+Plug 'hrsh7th/vim-vsnip-integ' " Snippets integrations for lsp
+
 
 call plug#end()
 

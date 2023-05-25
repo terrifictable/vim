@@ -28,3 +28,14 @@ set showmatch
 set hlsearch
 set history=100
 
+
+" When doing tab completion, give the following files lower priority.
+set suffixes+=.info,.aux,.log,.dvi,.bbl,.out,.o,.lo
+
+set nomodeline
+set nocompatible
+syntax on
+autocmd BufRead APKBUILD set filetype=sh
+
+
+
