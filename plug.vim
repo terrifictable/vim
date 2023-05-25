@@ -8,11 +8,12 @@ endif
 
 call plug#begin()
 
-Plug 'ghifarit53/tokyonight-vim'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-dispatch'
-Plug 'mengelbrecht/lightline-bufferline'
-Plug 'itchyny/lightline.vim'
+Plug 'ghifarit53/tokyonight-vim'         " Theme
+Plug 'tpope/vim-surround'                " Surround stuff
+Plug 'tpope/vim-dispatch'                " Async Make
+Plug 'tpope/vim-fugitive'                " Git
+Plug 'mengelbrecht/lightline-bufferline' " Bufferline
+Plug 'itchyny/lightline.vim'             " Buttom Line(?)
 
 call plug#end()
 
