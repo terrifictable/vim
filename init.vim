@@ -16,6 +16,7 @@ map Q gq
 set suffixes+=.info,.aux,.log,.dvi,.bbl,.out,.o,.lo
 
 set nomodeline
+set nocompatible
 syntax on
 autocmd BufRead APKBUILD set filetype=sh
 
