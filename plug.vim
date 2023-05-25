@@ -17,7 +17,9 @@ Plug 'tpope/vim-commentary' " Comment stuff
 Plug 'tpope/vim-surround'   " Surround stuff
 Plug 'tpope/vim-dispatch'   " Async Make
 Plug 'tpope/vim-fugitive'   " Git
-Plug 'junegunn/fzf'         " Fuzzy finder
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fuzzy Finder
+Plug 'junegunn/fzf.vim' " More fuzzy stuff
 
 " === LANGUAGES ===
 Plug 'fatih/vim-go' " GoLang support

@@ -17,7 +17,8 @@ endif
 
 
 " Plugin configs
-source ~/.config/vim/bufferline.vim
-source ~/.config/vim/autocomplete.vim
-source ~/.config/vim/lsp.vim
+source ~/.config/vim/plugins/bufferline.vim
+source ~/.config/vim/plugins/autocomplete.vim
+source ~/.config/vim/plugins/lsp.vim
+source ~/.config/vim/plugins/fzf.vim
 

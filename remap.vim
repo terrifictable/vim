@@ -11,6 +11,9 @@ nnoremap <Leader>n :enew<CR>
 " Escape terminal using ESC key
 tnoremap <Esc> <C-\><C-n>
 
+" Fzf
+nnoremap pf :Files<CR>
+
 " :W to sudo save
 command! W w !sudo tee % > /dev/null
 
