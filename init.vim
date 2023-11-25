@@ -8,6 +8,8 @@ source ~/.config/vim/remap.vim
 
 let g:indentLine_char_list = ['|']
 
+set shell=ash
+
 " Don't use Ex mode, use Q for formatting
 map Q gq
 
@@ -21,4 +23,5 @@ source ~/.config/vim/plugins/bufferline.vim
 source ~/.config/vim/plugins/autocomplete.vim
 source ~/.config/vim/plugins/lsp.vim
 source ~/.config/vim/plugins/fzf.vim
+" source ~/.config/vim/plugins/go.vim
 

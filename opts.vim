@@ -3,6 +3,8 @@ set ai                  " Always set auto-indenting on
 set history=50          " keep 50 lines of command history
 set ruler               " Show the cursor position all the time
 
+set clipboard=exclude:.* " stop vim from trying to get window title from X or use X clipboard
+
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
